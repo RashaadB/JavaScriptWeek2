@@ -40,3 +40,14 @@ function min(x, y) {
     console.log('the month is ${months[userImput]}');
   }
   random ()
+
+  //Hard
+  let jerryMass = 45
+let tomMass = 8
+let jerryHeight = 10
+let tomHeight = 9
+const tomBMI = tomMass / tomHeight ** 2;
+const jerryBMI = jerryMass / (jerryHeight * jerryHeight);
+console.log(tomBMI, jerryBMI);
+const higherBMI = tomBMI > jerryBMI;
+console.log(`Is Tom's BMI higher than Jerry's? ${higherBMI}`)
